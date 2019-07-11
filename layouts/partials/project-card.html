@@ -3,6 +3,9 @@
         <a href="{{ .Permalink }}" class="card-header-title">
             {{.Title}}
         </a>
+        <span class="icon is-large">
+            <i class="devicon-{{ .Params.language }}-plain is-size-4"></i>
+        </span>
         <div class="card-header-icon">
             <a class="github-button" href="{{ .Params.repository }}" data-show-count="true"
                 aria-label="Star matteojoliveau/convomark on GitHub">Star</a>
