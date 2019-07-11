@@ -3,11 +3,13 @@
 {{- partial "head.html" . -}}
 
 <body>
-    {{- partial "header.html" . -}}
-    <main aria-role="main">
-        {{- block "main" . }}{{- end }}
-    </main>
-    {{- partial "footer.html" . -}}
+    <div class="wrapper">
+        {{- partial "header.html" . -}}
+        <main aria-role="main" class="main">
+            {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+    </div>
 </body>
 
 </html>

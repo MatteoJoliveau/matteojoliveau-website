@@ -4,6 +4,7 @@ repository: https://github.com/matteojoliveau/convomark
 website: https://convomark.matteojoliveau.com/about
 star: false
 abstract: Bookmark your telegram conversations!
+weight: 20
 ---
 
 ConvoMark is a Telegram bot to bookmark message and organize them in 

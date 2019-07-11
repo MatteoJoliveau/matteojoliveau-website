@@ -1,0 +1,19 @@
+<div class="card has-background-dark">
+    <header class="card-header">
+        <a href="{{ .Permalink }}" class="card-header-title">
+            {{.Title}}
+        </a>
+        <div class="card-header-icon">
+            <a class="github-button" href="{{ .Params.repository }}" data-show-count="true"
+                aria-label="Star matteojoliveau/convomark on GitHub">Star</a>
+        </div>
+    </header>
+    <div class="card-content">
+        <p class="content">{{ .Params.abstract }}</p>
+    </div>
+    <footer class="card-footer">
+        <a href="{{ .Permalink }}" class="card-footer-item">More</a>
+        {{ if .Params.website }}<a href="{{ .Params.website }}" class="card-footer-item">Website</a>{{ end }}
+        <a href="{{ .Params.repository }}" class="card-footer-item">Repository</a>
+    </footer>
+</div>

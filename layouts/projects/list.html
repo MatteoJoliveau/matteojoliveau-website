@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section id="content" class="section">
-    <article>
+    <article class="container">
         <header>
             <h1 class="title is-1">{{.Title}}</h1>
         </header>
@@ -8,13 +8,16 @@
             {{ .Content }}
         </div>
     </article>
-    <ul>
-        {{ range .Pages }}
-        <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-            <p>{{ .Params.github }}</p>
-        </li>
-        {{ end }}
-    </ul>
+</section>
+<section class="section">
+    <div class="container">
+        <ul class="columns is-multiline">
+            {{ range .Pages }}
+            <li class="column">
+                {{ partial "project-card" . }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
 </section>
 {{ end }}
