@@ -1,25 +1,23 @@
 {{ define "main" }}
-<main aria-role="main">
-    <div class="hero is-fullheight-with-navbar is-primary">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title is-1">
-                    Matteo Joliveau
-                </h1>
-                <h2 class="subtitle is-2">
-                    Software Developer & Cloud Enthusiast
-                </h2>
-            </div>
+<div class="hero is-fullheight-with-navbar is-primary">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-1">
+                Matteo Joliveau
+            </h1>
+            <h2 class="subtitle is-2">
+                Software Developer & Cloud Enthusiast
+            </h2>
         </div>
     </div>
-    <section class="section has-background-black">
-        <p>{{ .Site.Title }}</p>
-    </section>
-    <section class="section has-background-dark">
-        <p>{{ .Site.Title }}</p>
-    </section>
-    <section class="section has-background-black">
-        <p>{{ .Site.Title }}</p>
-    </section>
-</main>
+</div>
+<section class="section has-background-black">
+    <p>{{ .Site.Title }}</p>
+</section>
+<section class="section has-background-dark">
+    <p>{{ .Site.Title }}</p>
+</section>
+<section class="section has-background-black">
+    <p>{{ .Site.Title }}</p>
+</section>
 {{ end }}

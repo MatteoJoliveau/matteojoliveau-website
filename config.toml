@@ -2,3 +2,22 @@ baseURL = "https://matteojoliveau.com/"
 languageCode = "en-us"
 enableRobotsTXT = true
 title = "Matteo Joliveau"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = -120
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Contacts"
+    url = "/contacts/"
+    weight = -100

@@ -14,35 +14,13 @@
 
     <div id="navbarBasicExample" class="navbar-menu has-background-dark">
         <div class="navbar-start">
-            <a class="navbar-item has-text-white" href="{{ .Site.BaseURL }}">
-                Home
-            </a>
-
-            <a class="navbar-item has-text-white" href="{{ "about" | relURL }}">
-                About Me
-            </a>
-
-            <div class="navbar-item has-dropdown is-hoverable2">
-                <a class="navbar-link has-text-white">
-                    More
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <a class="navbar-item has-text-white" href="{{ .URL }}">
+                    {{ .Name }}
                 </a>
-
-                <div class="navbar-dropdown has-background-dark">
-                    <a class="navbar-item has-text-white">
-                        About
-                    </a>
-                    <a class="navbar-item has-text-white">
-                        Jobs
-                    </a>
-                    <a class="navbar-item has-text-white">
-                        Contact
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item has-text-white">
-                        Report an issue
-                    </a>
-                </div>
-            </div>
+                {{ end}}
+    
         </div>
 
         <div class="navbar-end">
