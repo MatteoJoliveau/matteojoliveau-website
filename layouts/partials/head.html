@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>{{ .Site.Title }}</title>
+<!-- Stylesheets -->
+{{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/application.css") | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+
+<!-- JS -->
+{{ $navbar := resources.Get "js/navbar.js" }}
+{{ $main := resources.Get "js/main.js" }}
+{{ $js := slice $main $navbar | resources.Concat "js/application.js" | minify | fingerprint }}
+<script src="{{ $js.Permalink }}"></script>
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | absURL }}" />

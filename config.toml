@@ -1,0 +1,4 @@
+baseURL = "https://matteojoliveau.com/"
+languageCode = "en-us"
+enableRobotsTXT = true
+title = "Matteo Joliveau"

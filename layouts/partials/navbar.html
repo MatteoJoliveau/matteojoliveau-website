@@ -1,0 +1,61 @@
+<nav class="navbar has-background-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item has-text-white" href="{{ .Site.BaseURL }}">
+            {{ .Site.Title }}
+        </a>
+
+        <a role="button" class="navbar-burger burger has-text-white" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu has-background-dark">
+        <div class="navbar-start">
+            <a class="navbar-item has-text-white" href="{{ .Site.BaseURL }}">
+                Home
+            </a>
+
+            <a class="navbar-item has-text-white" href="{{ "about" | relURL }}">
+                About Me
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable2">
+                <a class="navbar-link has-text-white">
+                    More
+                </a>
+
+                <div class="navbar-dropdown has-background-dark">
+                    <a class="navbar-item has-text-white">
+                        About
+                    </a>
+                    <a class="navbar-item has-text-white">
+                        Jobs
+                    </a>
+                    <a class="navbar-item has-text-white">
+                        Contact
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item has-text-white">
+                        Report an issue
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item has-text-white">
+                <span class="icon is-large">
+                    <i class="fab fa-github"></i>
+                </span>
+            </a>
+            <a class="navbar-item has-text-white">
+                <span class="icon is-large">
+                    <i class="fab fa-twitter"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+</nav>
