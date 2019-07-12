@@ -1,6 +1,5 @@
 +++
 description = "Luxury clothing rent eCommerce platform"
-draft = true
 images = []
 language = "ruby"
 repository = ""
