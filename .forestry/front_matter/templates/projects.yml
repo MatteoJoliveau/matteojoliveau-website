@@ -1,5 +1,5 @@
 ---
-label: Projects
+label: Project
 hide_body: false
 fields:
 - name: title
@@ -59,3 +59,7 @@ fields:
       file: 
       path: 
   label: Language
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
