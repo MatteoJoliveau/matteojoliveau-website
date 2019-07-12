@@ -24,7 +24,7 @@ fields:
 - name: repository
   type: text
   config:
-    required: true
+    required: false
   label: Repository
 - name: website
   type: text
