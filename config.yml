@@ -1,0 +1,23 @@
+baseURL: "https://matteojoliveau.com/"
+languageCode: "en-us"
+enableRobotsTXT: true
+title: "Matteo Joliveau"
+
+params:
+  title: "Matteo Joliveau"
+  description: "Software Developer & Cloud Enthusiast"
+  images: ["feature-image.png"]
+
+menu:
+  main: 
+  - identifier: "projects"
+    name: "Projects"
+    url: "/projects/"
+    weight: -120
+  - identifier: "about"
+    name: "About Me"
+    url: "/about/"
+    weight: -110
+  - name: "Contacts"
+    url: "/contacts/"
+    weight: -100
