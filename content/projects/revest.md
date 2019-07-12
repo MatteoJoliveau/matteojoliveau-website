@@ -1,5 +1,5 @@
 +++
-description = "Luxury clothing rent eCommerce platform"
+description = "Luxury clothing rent eCommerce platform, built on modern Cloud Native solutions"
 images = []
 language = "ruby"
 repository = ""
