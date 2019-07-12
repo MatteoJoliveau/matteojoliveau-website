@@ -6,7 +6,7 @@ repository = ""
 star = false
 title = "Revest"
 website = "https://revest.it"
-weight = nil
+weight = 30
 
 +++
 Revest

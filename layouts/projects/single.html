@@ -9,8 +9,14 @@
                 <span class="level-item icon is-large">
                     <i class="devicon-{{ .Params.language }}-plain is-size-1"></i>
                 </span>
-                <a class="level-item github-button" href="{{ .Params.repository }}" data-show-count="true"
-                    aria-label="Star matteojoliveau/convomark on GitHub">Star</a>
+                {{ with .Params.repository }}
+                    {{ if hasPrefix . "https://github.com/"}}
+                        {{ $repo := replace . "https://github.com/" "" }}
+                    <img class="level-item" alt="GitHub" src="https://img.shields.io/github/license/{{ $repo }}.svg?style=for-the-badge">
+                    <a class="level-item github-button" href="{{ . }}" data-show-count="true"
+                        aria-label="Star {{ $repo }} on GitHub">Star</a>
+                    {{ end }}
+                {{ end }}
             </div>
         </div>
         <div class="content">

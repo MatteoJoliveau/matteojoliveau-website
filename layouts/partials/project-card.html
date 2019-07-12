@@ -11,17 +11,19 @@
         <span class="icon is-large">
             <i class="devicon-{{ .Params.language }}-plain is-size-4"></i>
         </span>
+        {{ with .Params.repository }}
         <div class="card-header-icon">
-            <a class="github-button" href="{{ .Params.repository }}" data-show-count="true"
+            <a class="github-button" href="{{ . }}" data-show-count="true"
                 aria-label="Star matteojoliveau/convomark on GitHub">Star</a>
         </div>
+        {{ end }}
     </header>
     <div class="card-content">
         <p class="content">{{ .Params.description }}</p>
     </div>
     <footer class="card-footer">
         <a href="{{ .Permalink }}" class="card-footer-item">More</a>
-        {{ if .Params.website }}<a href="{{ .Params.website }}" class="card-footer-item">Website</a>{{ end }}
-        <a href="{{ .Params.repository }}" class="card-footer-item">Repository</a>
+        {{ with .Params.website }}<a href="{{ . }}" class="card-footer-item">Website</a>{{ end }}
+        {{ with .Params.repository }}<a href="{{ . }}" class="card-footer-item">Repository</a>{{end}}
     </footer>
 </div>
