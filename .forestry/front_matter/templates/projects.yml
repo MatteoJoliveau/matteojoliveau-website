@@ -1,4 +1,61 @@
 ---
 label: Projects
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Title of the project
+- name: star
+  type: boolean
+  label: Star
+- name: weight
+  type: number
+  label: Weight
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: repository
+  type: text
+  config:
+    required: true
+  label: Repository
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: language
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - java
+    - ruby
+    - javascript
+    - nodejs
+    - elixir
+    - erlang
+    - kotlin
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
