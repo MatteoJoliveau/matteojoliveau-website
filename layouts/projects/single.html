@@ -1,10 +1,18 @@
 {{ define "main" }}
 <section id="content" class="section">
     <div class="section">
-        <h1 class="title is-1">{{ .Title }}</h1>
-        <span class="icon is-large">
-            <i class="devicon-{{ .Params.language }}-plain is-size-1"></i>
-        </span>
+        <div class="level">
+            <div class="level-left">
+                <h1 class="title is-1">{{ .Title }}</h1>
+            </div>
+            <div class="level-right">
+                <span class="level-item icon is-large">
+                    <i class="devicon-{{ .Params.language }}-plain is-size-1"></i>
+                </span>
+                <a class="level-item github-button" href="{{ .Params.repository }}" data-show-count="true"
+                    aria-label="Star matteojoliveau/convomark on GitHub">Star</a>
+            </div>
+        </div>
         <div class="content">
             {{ .Content }}
         </div>

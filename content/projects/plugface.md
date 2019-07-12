@@ -2,7 +2,7 @@
 title: "PlugFace Framework"
 repository: https://github.com/matteojoliveau/plugface
 website: https://plugface.matteojoliveau.com
-star: false
+star: true
 abstract: PlugFace is the simple, friction-free Java plugin framework that allows you to load classes at runtime without having to worry about anything. Just grab your plugins, follow the quickstart example and you're good to go!
 weight: 10
 language: java

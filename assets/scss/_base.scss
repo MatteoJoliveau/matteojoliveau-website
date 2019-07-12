@@ -9,6 +9,10 @@
     flex: 1 1 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -19,3 +23,4 @@ a
 p {
     color: $text;
 }
+

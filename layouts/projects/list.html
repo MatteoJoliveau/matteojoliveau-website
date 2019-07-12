@@ -1,9 +1,7 @@
 {{ define "main" }}
 <section id="content" class="section">
     <article class="container">
-        <header>
-            <h1 class="title is-1">{{.Title}}</h1>
-        </header>
+        <h1 class="title is-1">{{.Title}}</h1>
         <div class="content">
             {{ .Content }}
         </div>
@@ -13,7 +11,7 @@
     <div class="container">
         <ul class="columns is-multiline">
             {{ range .Pages }}
-            <li class="column">
+            <li class="column is-flex">
                 {{ partial "project-card" . }}
             </li>
             {{ end }}

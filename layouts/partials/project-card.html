@@ -1,5 +1,10 @@
 <div class="card has-background-dark">
     <header class="card-header">
+        {{ if .Params.star }}
+        <span class="icon is-large">
+            <i class="fas fa-star"></i>
+        </span>
+        {{ end }}
         <a href="{{ .Permalink }}" class="card-header-title">
             {{.Title}}
         </a>

@@ -9,9 +9,13 @@
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 <!-- JS -->
+{{ $utils := resources.Get "js/utils.js" }}
 {{ $navbar := resources.Get "js/navbar.js" }}
 {{ $main := resources.Get "js/main.js" }}
-{{ $js := slice $main $navbar | resources.Concat "js/application.js" | minify | fingerprint }}
+{{ $js := slice $utils $main $navbar | resources.Concat "js/application.js" }}
+{{ if not .Site.IsServer }}
+{{ $js = $js | minify | fingerprint}}
+{{ end }}
 <script src="{{ $js.Permalink }}"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 

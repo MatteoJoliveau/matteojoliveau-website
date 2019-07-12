@@ -1,0 +1,10 @@
+{{ if not .Site.IsServer }}
+<noscript>
+    <!-- Matomo Image Tracker-->
+    <img src="https://analytics.matteojoliveau.com/matomo.php?idsite=3&amp;rec=1" style="border:0" alt="" />
+    <!-- End Matomo -->
+</noscript>
+
+{{ $tracking := resources.Get "js/tracking.js" | minify | fingerprint}}
+<script src="{{ $tracking.Permalink }}"></script>
+{{ end }}

@@ -4,19 +4,18 @@
             {{ .Site.Title }}
         </a>
 
-        <a role="button" class="navbar-burger burger has-text-white" aria-label="menu" aria-expanded="false"
-            data-target="navbarBasicExample">
+        <a role="button" class="navbar-burger burger has-text-white" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
         </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu has-background-dark">
+    <div  class="navbar-menu has-background-dark">
         <div class="navbar-start">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
-                <a class="navbar-item has-text-white" href="{{ .URL }}">
+                <a class="navbar-item navbar-entry" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
                 {{ end}}
