@@ -16,10 +16,10 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: ''
+public_path: https://s3-eu-west-1.amazonaws.com/matteojoliveau-com-production
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
