@@ -6,7 +6,7 @@ repository = "https://github.com/matteojoliveau/super_mapper"
 star = false
 title = "Ruby SuperMapper"
 website = ""
-weight = 100
+weight = 50
 +++
 **SuperMapper** is a quick and simple mapper between Ruby object.  
 Define a mapping between attribute readers and writers and automatically convert classes.
