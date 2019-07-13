@@ -64,4 +64,5 @@ fields:
   config: {}
   label: Images
 pages:
+- content/projects/plugface.md
 - content/projects/revest.md
