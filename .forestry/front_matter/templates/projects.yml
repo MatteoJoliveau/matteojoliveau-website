@@ -64,6 +64,7 @@ fields:
   config: {}
   label: Images
 pages:
+- content/projects/chef-in-camicia-mobile-app.md
 - content/projects/ruby-supermapper.md
 - content/projects/convomark.md
 - content/projects/plugface.md
