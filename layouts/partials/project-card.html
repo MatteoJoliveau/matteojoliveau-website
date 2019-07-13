@@ -25,6 +25,11 @@
         {{ end }}
     </header>
     <div class="card-content card-flex-content">
+        <div class="tags">
+            {{ range .Params.tags }}
+            <span class="tag is-primary">{{ . }}</span>
+            {{ end }}
+        </div>
         <p class="content">{{ .Params.description }}</p>
     </div>
     <footer class="card-footer">
