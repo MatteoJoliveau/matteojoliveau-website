@@ -25,19 +25,22 @@ It focuses on simplicity, easy and clean API and modularity. Visit the [Document
 **Browse the Javadoc [here](https://plugface.matteojoliveau.com/apidocs/plugface-core/index.html)**  
 
 ## Core Concepts
+
 * Simple `Plugin` annotation to mark entry points to be loaded and registered in the classpath at runtime.
 * `PluginManager` utility class to load, configure and register plugins. It should be the primary way for applications to manage the PlugFace echosystems.
 * A `PluginContext` that acts as a repository for registered plugins and managers. It holds the reference to all the plugins that have been registered.
 * Pluggable source mechanism. Implementing the `PluginSource` interface allows for nearly infinite possibilities as to from where plugins are loaded.
 * **Dependency injection**: plugins can require other plugins using the standard Java `@Inject` annotation. If using the `plugface-spring` module for
-Spring integration, plugins can also have Spring bean injected in their constructors (but not the other way around). (See [Dependency Injection]())
+Spring integration, plugins can also have Spring bean injected in their constructors (but not the other way around). (See [Dependency Injection](https://plugface.matteojoliveau.com/docs/dependency-injection.html))
 
 ### Download
+
 There are many ways to download PlugFace. The easiest one is to use a build management system like **Maven** or **Gradle**.  
 Check out the **[Download](https://plugface.matteojoliveau.com/docs/install-maven.html)** section of the Docs for the full list.  
 *If using Spring Framework you may want to use `plugface-spring` instead of `plugface-core` for an out-of-the-box integration*
 
 To download the latest stable release in Maven, add the following snippet to the `<dependencies>` section of your pom.xml:
+<!-- markdownlint-disable no-inline-html -->
 {{< highlight xml >}}
 <dependency>
     <groupId>org.plugface</groupId>
@@ -45,6 +48,7 @@ To download the latest stable release in Maven, add the following snippet to the
     <version>${release.version}</version>
 </dependency>
 {{< / highlight >}}
+<!-- markdownlint-enable no-inline-html -->
 
 For Gradle, add the following lines to `build.gradle`:
 {{< highlight gradle>}}
@@ -60,9 +64,11 @@ dependencies {
 {{< / highlight >}}
 
 ### Quick Start
+
 Check out the [Quickstart](https://plugface.matteojoliveau.com/docs/app-quickstart.html) guides for more detailed instructions.
 
 ### License
+
 *The MIT License*  
 **Copyright 2017 Matteo Joliveau**
 

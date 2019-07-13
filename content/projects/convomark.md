@@ -41,10 +41,12 @@ The **Telegram bot** is implemented using the wonderful [Telegraf](https://teleg
 The bot is configured to run using the [long polling strategy](https://core.telegram.org/bots/api#getupdates) in development, and [webhooks](https://core.telegram.org/bots/api#setwebhook) in production. By default the endpoint for webhooks is `/bot/updates/{hex(sha256(token))}`.
 
 ## Project requirements
+
 - [Node](https://nodejs.org) 10.15 or later
 - [Yarn](https://yarnpkg.com) 1.13 or later
 - [PostgreSQL](https://www.postgresql.org/) 11
 - [Redis](https://redis.io) 5
 
 ### Setup with Docker
-If you have Docker installed you can use [Docker Compose]() to run Postgres and Redis without the need to have them installed. Simply run `docker-compose up -d` to have them started and listening in the background on their native ports (5432 for Postgres, 6379 for Redis).
+
+If you have Docker installed you can use [Docker Compose](https://docs.docker.com/compose/) to run Postgres and Redis without the need to have them installed. Simply run `docker-compose up -d` to have them started and listening in the background on their native ports (5432 for Postgres, 6379 for Redis).

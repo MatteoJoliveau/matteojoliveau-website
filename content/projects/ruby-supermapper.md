@@ -9,11 +9,9 @@ website = ""
 weight = 50
 
 +++
-# SuperMapper
-
+<!-- markdownlint-disable commands-show-output -->
 **SuperMapper** is a quick and simple mapper between Ruby object.  
 Define a mapping between attribute readers and writers and automatically convert classes.
-    
 
 ## Installation
 
@@ -36,23 +34,27 @@ Or install it yourself as:
 ### Defining mapping
 
 Create a new Mapper instance, then start describing mapping to a specific class
+<!-- markdownlint-disable -->
 {{< highlight ruby>}}
 mapper = SuperMapper.new
 
 # Define a mapping from a User to a UserStruct
+
 mapper.define_mapping User, UserStruct  do |user, user_struct|
   user_struct.first_name = user.first_name
   
-  # Apply transformations
+# Apply transformations
+  
   user_struct.username = user.username.downcase
   
-  # Generate new values 
+# Generate new values 
+  
   user_struct.created_at = Time.now
 end
 {{< / highlight >}}
-
+<!-- markdownlint-enable -->
 ### Apply conversions
-
+<!-- markdownlint-disable -->
 {{< highlight ruby>}}
 user = User.first
 
@@ -72,8 +74,7 @@ mapper.map some_other_user_representation, user_struct
 
 # +user_struct+ now has fields from both User and the other representation
 {{< / highlight >}}
-
-
+<!-- markdownlint-enable -->
 If using target classes, they MUST implement a no-args constructor because new instances are created via `target_class.new`.
 
 ## License

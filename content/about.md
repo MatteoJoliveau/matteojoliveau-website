@@ -1,8 +1,9 @@
 ---
 title: About
 date: 2019-07-11T16:21:37.000+00:00
-
+description: About me and my work
 ---
+<!-- markdownlint-disable single-h1 no-trailing-punctuation -->
 # Hello World!
 
 My name's Matteo and I'm a software developer from Europe. I mainly focus on cloud-native solutions, web backends and integration systems, and I'm deeply in love with topics like container orchestration, distributed systems and access control management.
@@ -17,9 +18,10 @@ I'm specialized in **API solutions design**, both **RESTful** and **GraphQL**-ba
 
 ## Work Experience
 
-* **_Cloud Solution Architect_** [**@Mikamai** ](https://mikamai.com)/ **May 2018 - Current**  
+* **_Cloud Solution Architect_** [**@Mikamai**](https://mikamai.com) / **May 2018 - Current**  
   Designing and developing modern **cloud-native** architectures and applications, helping clients achieve their business goals from requirements to production. Mainly focusing on **Ruby on Rails**, **NodeJS** and **Elixir** backends, deployed on **AWS-powered infrastructures**.
   
 ---
+
 * **_Backend Developer and Integration Specialist_** [**@TechGap Italia**](https://techgap.it) / **January 2017 - May 2018**  
   Developing and maintaining **Java-based** projects both internal and for clients, along with open source projects. I work on integration solutions for financial data transfer with software like **Apache Came**l, and on a business invoice mapping and conversion software.
