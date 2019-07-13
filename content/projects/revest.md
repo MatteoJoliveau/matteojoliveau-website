@@ -7,7 +7,6 @@ star = false
 title = "Revest"
 website = "https://revest.it"
 weight = 30
-
 +++
 Revest is a luxury clothing eCommerce platform which rents its products instead of selling them.
 
