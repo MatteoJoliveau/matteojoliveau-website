@@ -21,3 +21,6 @@ menu:
   - name: "Contacts"
     url: "/contacts/"
     weight: -100
+
+blackfriday:
+  hrefTargetBlank: true
