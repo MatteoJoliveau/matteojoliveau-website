@@ -60,6 +60,10 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - content/projects/chef-in-camicia-mobile-app.md
 - content/projects/ruby-supermapper.md
