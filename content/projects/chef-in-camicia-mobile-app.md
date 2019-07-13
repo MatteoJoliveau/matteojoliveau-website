@@ -3,6 +3,7 @@ description = "Social Media for the italian cooking community Chef In Camicia, w
 images = ["https://d1r70b9eh1brae.cloudfront.net/chef-in-camicia.png"]
 language = "ruby"
 repository = ""
+tags = ["professional", " mikamai"]
 title = "Chef In Camicia - Mobile App"
 website = "https://chefincamicia.com/app/"
 weight = 40
