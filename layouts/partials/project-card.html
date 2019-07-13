@@ -1,11 +1,22 @@
 <div class="card card-flex has-background-dark">
+    {{ $permalink := .Permalink }}
+    {{ with .Params.images }}
+        {{ $img := index . 0}}
+        <div class="card-image">
+            <a href="{{ $permalink }}">
+                <figure class="image is-16by9">
+                    <img src="{{ $img }}" alt="Placeholder image">
+                </figure>
+            </a>
+        </div>
+    {{ end }}
     <header class="card-header">
         {{ if .Params.star }}
         <span class="icon is-large">
             <i class="fas fa-star"></i>
         </span>
         {{ end }}
-        <a href="{{ .Permalink }}" class="card-header-title">
+        <a href="{{ $permalink }}" class="card-header-title">
             {{.Title}}
         </a>
         <span class="icon is-large">
@@ -22,7 +33,7 @@
         <p class="content">{{ .Params.description }}</p>
     </div>
     <footer class="card-footer">
-        <a href="{{ .Permalink }}" class="card-footer-item">More</a>
+        <a href="{{ $permalink }}" class="card-footer-item">More</a>
         {{ with .Params.website }}<a href="{{ . }}" class="card-footer-item">Website</a>{{ end }}
         {{ with .Params.repository }}<a href="{{ . }}" class="card-footer-item">Repository</a>{{end}}
     </footer>
