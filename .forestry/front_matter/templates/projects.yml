@@ -8,9 +8,6 @@ fields:
     required: true
   label: Title
   description: Title of the project
-- name: star
-  type: boolean
-  label: Star
 - name: weight
   type: number
   label: Weight

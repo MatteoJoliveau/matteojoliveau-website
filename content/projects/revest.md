@@ -3,7 +3,6 @@ description = "Luxury clothing rent eCommerce platform, built on modern Cloud Na
 images = ["https://d1r70b9eh1brae.cloudfront.net/revest.png"]
 language = "ruby"
 repository = ""
-star = false
 title = "Revest"
 website = "https://revest.it"
 weight = 30

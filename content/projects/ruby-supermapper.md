@@ -3,7 +3,6 @@ description = "SuperMapper is a quick and simple mapper between Ruby object.\nDe
 images = ["https://d1r70b9eh1brae.cloudfront.net/ruby-grey.png"]
 language = "ruby"
 repository = "https://github.com/matteojoliveau/super_mapper"
-star = false
 title = "Ruby SuperMapper"
 website = ""
 weight = 50
