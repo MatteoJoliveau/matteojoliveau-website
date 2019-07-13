@@ -1,6 +1,6 @@
 +++
 description = "Luxury clothing rent eCommerce platform, built on modern Cloud Native solutions"
-images = ["https://s3-eu-west-1.amazonaws.com/matteojoliveau-com-production/revest.png"]
+images = ["https://d1r70b9eh1brae.cloudfront.net/revest.png"]
 language = "ruby"
 repository = ""
 star = false
