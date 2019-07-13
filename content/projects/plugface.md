@@ -10,5 +10,8 @@ images:
 - https://d1r70b9eh1brae.cloudfront.net/plugface.png
 tags:
 - open source
+- plugin
+- framework
+
 ---
 PlugFace allows to easily define, load and manage plugins in Java. Plugins are simply class that are loaded into an application at runtime, without the need to have them available at compile time.
