@@ -19,6 +19,7 @@ I'm specialized in **API solutions design**, both **RESTful** and **GraphQL**-ba
 
 * **_Cloud Solution Architect_** [**@Mikamai** ](https://mikamai.com)/ **May 2018 - Current**  
   Designing and developing modern **cloud-native** architectures and applications, helping clients achieve their business goals from requirements to production. Mainly focusing on **Ruby on Rails**, **NodeJS** and **Elixir** backends, deployed on **AWS-powered infrastructures**.
+  
 ---
 * **_Backend Developer and Integration Specialist_** [**@TechGap Italia**](https://techgap.it) / **January 2017 - May 2018**  
   Developing and maintaining **Java-based** projects both internal and for clients, along with open source projects. I work on integration solutions for financial data transfer with software like **Apache Came**l, and on a business invoice mapping and conversion software.
