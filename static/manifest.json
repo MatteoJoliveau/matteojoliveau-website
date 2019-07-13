@@ -1,0 +1,12 @@
+{
+  "name" : "Matteo Joliveau",
+  "short_name" : "Matteo Joliveau",
+  "description" : "Software Developer & Cloud Enthusiast",
+  "start_url" : "/",
+  "scope" : "/",
+  "display" : "standalone",
+  "orientation" : "any",
+  "lang" : "English",
+  "theme_color": "#00adb5",
+  "background_color": "#222831"
+}

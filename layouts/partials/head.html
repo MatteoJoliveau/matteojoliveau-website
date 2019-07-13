@@ -18,8 +18,7 @@
 <!-- JS -->
 {{ $utils := resources.Get "js/utils.js" }}
 {{ $navbar := resources.Get "js/navbar.js" }}
-{{ $main := resources.Get "js/main.js" }}
-{{ $js := slice $utils $main $navbar | resources.Concat "js/application.js" }}
+{{ $js := slice $utils $navbar | resources.Concat "js/application.js" }}
 {{ if not .Site.IsServer }}
 {{ $js = $js | minify | fingerprint}}
 {{ end }}
@@ -28,3 +27,6 @@
 
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | absURL }}" />
+
+<!-- PWA -->
+<link rel='manifest' href='/manifest.json'>
