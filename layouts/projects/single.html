@@ -19,6 +19,16 @@
                 {{ end }}
             </div>
         </div>
+        <div class="level">
+            <div class="level-left">
+                {{ with .Params.website }}
+                <a href="{{ . }}" target="_blank" class="level-item button is-link">Website</a>
+                {{ end }}
+                {{ with .Params.repository }}
+                <a href="{{ . }}" target="_blank" class="level-item button is-link">Repository</a>
+                {{ end }}
+            </div>
+        </div>
         <div class="content">
             {{ .Content }}
         </div>
