@@ -1,3 +1,3 @@
-function onPageLoad(cb) {
+window.onPageLoad = function (cb) {
     document.addEventListener('DOMContentLoaded', cb);
 };

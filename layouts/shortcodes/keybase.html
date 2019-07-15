@@ -1,0 +1,35 @@
+{{ $username := .Get "username" }}
+{{ $fingerprint := .Get "fingerprint" }}
+{{ $url := printf "https://keybase.io/%s/pgp_keys.asc?fingerprint=%s" $username $fingerprint }}
+
+<div class="columns">
+  <div class="column is-two-thirds">
+    <div class="level is-mobile">
+      <div class="level-left">
+        <a class="level-item" target="_blank" href="https://keybase.io/matteojoliveau">
+          <span class="icon is-large">
+            <i class="fab fa-keybase is-size-2" title="matteojoliveau's Keybase Profile"></i>
+          </span>
+        </a>
+        <div class="field">
+          <div class="control">
+            <button class="level-item button is-link" id="copy-pk">Copy To Clipboard</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <div class="control">
+        <textarea class="textarea has-text-white has-background-dark" style="min-height: 50vh;" value="Public Key"
+          onclick="this.focus(); this.select();" id="keybase-pk" data-keybase-url="{{ $url }}" readonly></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-third">
+  </div>
+</div>
+{{ $js := resources.Get "js/keybase.js" }}
+{{ if not .Site.IsServer }}
+{{ $js = $js | minify | fingerprint}}
+{{ end }}
+<script async defer src="{{ $js.Permalink }}"></script>
