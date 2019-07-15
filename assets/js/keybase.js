@@ -17,7 +17,6 @@ function copyToClipboard(publicKey, button) {
     button.classList.toggle('is-loading');
     const text = button.textContent;
     button.textContent = "Copied!";
-    console.log(button, text, button.textContent)
     setTimeout(() => {
       button.textContent = text;
     }, 2000);
