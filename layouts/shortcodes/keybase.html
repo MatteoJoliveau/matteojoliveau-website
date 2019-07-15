@@ -32,4 +32,4 @@
 {{ if not .Site.IsServer }}
 {{ $js = $js | minify | fingerprint}}
 {{ end }}
-<script async defer src="{{ $js.Permalink }}"></script>
+<script defer src="{{ $js.Permalink }}"></script>
