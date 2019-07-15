@@ -28,6 +28,7 @@
   <div class="column is-one-third">
   </div>
 </div>
+
 {{ $js := resources.Get "js/keybase.js" }}
 {{ if not .Site.IsServer }}
 {{ $js = $js | minify | fingerprint}}
