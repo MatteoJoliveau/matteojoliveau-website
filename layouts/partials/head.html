@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+{{- block "styles" . }}{{- end }}
 
 <!-- JS -->
 {{ $utils := resources.Get "js/utils.js" }}
@@ -24,6 +25,7 @@
 {{ end }}
 <script src="{{ $js.Permalink }}"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+{{- block "scripts" . }}{{- end }}
 
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | absURL }}" />
