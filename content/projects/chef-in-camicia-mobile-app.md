@@ -1,6 +1,6 @@
 +++
 description = "Social Media for the italian cooking community Chef In Camicia, where users can upload their own photos and share recipes with each other and win prices based on their success"
-images = ["https://d1r70b9eh1brae.cloudfront.net/chef-in-camicia.png"]
+images = ["https://d1r70b9eh1brae.cloudfront.net/chef-in-camicia-white.png"]
 language = "ruby"
 repository = ""
 tags = ["professional", " mikamai"]
