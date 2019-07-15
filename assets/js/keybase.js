@@ -1,4 +1,5 @@
 function getPublicKeyText(publicKey) {
+  publicKey.classList.toggle('is-loading');
   const url = publicKey.dataset.keybaseUrl;
   return fetch(url).then((res) => {
     if (res.ok) {
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   getPublicKeyText(publicKey)
     .then((pk) => {
       publicKey.value = pk;
+      publicKey.classList.toggle('is-loading');
     })
     .catch(console.error);
 
