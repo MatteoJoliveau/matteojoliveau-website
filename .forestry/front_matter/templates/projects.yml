@@ -65,8 +65,9 @@ fields:
   config: {}
   label: Images
 pages:
+- content/projects/only-one-color-is-safe.md
+- content/projects/revest.md
 - content/projects/ruby-supermapper.md
 - content/projects/chef-in-camicia-mobile-app.md
 - content/projects/convomark.md
 - content/projects/plugface.md
-- content/projects/revest.md
