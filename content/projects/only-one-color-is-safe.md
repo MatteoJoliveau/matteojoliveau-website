@@ -6,7 +6,7 @@ repository = "https://github.com/matteojoliveau/only-one-color"
 tags = ["game", "godot", "open source"]
 title = "Only One (Color Is Safe)"
 website = "https://definitelycodex.itch.io/only-one-color-is-safe"
-weight = nil
+weight = 25
 
 +++
 Game developed in 48 hours for the [2019 GMTK Game Jam](https://itch.io/jam/gmtk-2019).
