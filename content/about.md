@@ -12,7 +12,7 @@ My name's Matteo and I'm a software developer from Europe. I mainly focus on clo
 
 ## Core Skills
 
-I'm fairly competent with object oriented and functional programming languages such as **Java**, **Kotlin**, **Ruby**, **ECMAScript/TypeScript** and **Elixir**. I'm also studying more extreme functional languages such as **Haskell** and **ReasonML**.
+I'm fairly competent with object oriented and functional programming languages such as **Java**, **Kotlin**, **Ruby**, **ECMAScript/TypeScript**, **Erlang** and **Elixir**. I'm also studying more extreme functional languages such as **Haskell** and **ReasonML**.
 
 I'm an experienced system administrator, especially following **DevOps** and **GitOps** practices, and know my way around various **Linux distributions,** **FreeBSD**, **Windows** and **macOS** environments, **Docker containers** (including **Kubernetes** and derivatives) and **CI/CD** pipelines (both services like **CircleCI** and **GitLab CI** and on-prem stuff like **GoCD** and **Drone**).
 
