@@ -18,10 +18,12 @@ I'm an experienced system administrator, especially following **DevOps** and **G
 
 I'm specialized in **API solutions design**, both **RESTful** and **GraphQL**-based, and **Enterprise Integration Systems** (**Apache Camel** and alike). I'm also taking a deep interest in **OAuth2-based protocols**, like **OpenID Connect 1.0** and **User Managed Acces 2.0**.
 
+I consider myself a skilled [Keycloak](https://keycloak.org) developer and administrator, having production experience in both installing and maintaining it and securing applications with it.
+
 ## Work Experience
 
 * **_Cloud Solution Architect_** [**@Mikamai**](https://mikamai.com) / **May 2018 - Current**  
-  Designing and developing modern **cloud-native** architectures and applications, helping clients achieve their business goals from requirements to production. Mainly focusing on **Ruby on Rails**, **NodeJS** and **Elixir** backends, deployed on **AWS-powered infrastructures**.
+  Designing and developing modern **cloud-native** architectures and applications, helping clients achieve their business goals from requirements to production. Mainly focusing on **Ruby on Rails**, **NodeJS** and **Elixir** backends, deployed on **AWS-powered infrastructures** and secured by **Keycloak**.
 
 ***
 
