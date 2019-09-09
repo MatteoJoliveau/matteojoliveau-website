@@ -1,5 +1,6 @@
 +++
 description = "Infinite platformer where you can only stand on one color"
+draft = true
 images = ["https://d1r70b9eh1brae.cloudfront.net/screenshot.png"]
 language = ""
 repository = "https://github.com/matteojoliveau/only-one-color"
