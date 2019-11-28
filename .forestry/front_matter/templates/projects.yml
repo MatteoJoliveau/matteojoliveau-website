@@ -65,6 +65,7 @@ fields:
   config: {}
   label: Images
 pages:
+- content/projects/revest.md
 - content/projects/enseada.md
 - content/projects/bunny.md
 - content/projects/only-one-color-is-safe.md
@@ -72,4 +73,3 @@ pages:
 - content/projects/convomark.md
 - content/projects/chef-in-camicia-mobile-app.md
 - content/projects/ruby-supermapper.md
-- content/projects/revest.md
