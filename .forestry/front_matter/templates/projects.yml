@@ -65,6 +65,7 @@ fields:
   config: {}
   label: Images
 pages:
+- content/projects/enseada.md
 - content/projects/bunny.md
 - content/projects/only-one-color-is-safe.md
 - content/projects/plugface.md
