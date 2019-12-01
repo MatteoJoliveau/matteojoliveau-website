@@ -65,9 +65,9 @@ fields:
   config: {}
   label: Images
 pages:
+- content/projects/excouch.md
 - content/projects/convomark.md
 - content/projects/enseada.md
-- content/projects/excouch.md
 - content/projects/bunny.md
 - content/projects/revest.md
 - content/projects/only-one-color-is-safe.md

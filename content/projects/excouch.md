@@ -1,12 +1,12 @@
 +++
-description = "A pure Elixir client for CouchDB"
+description = "A pure Elixir client for CouchDB 2, providing idiomatic interactions and error handling"
 images = ["https://d1r70b9eh1brae.cloudfront.net/couch.png"]
 language = "elixir"
 repository = "https://github.com/enseadaio/ex_couch"
 tags = ["open source", "elixir", "couchdb"]
 title = "ExCouch"
 website = "https://hexdocs.pm/ex_couch"
-weight = 35
+weight = 25
 
 +++
 # ExCouch
