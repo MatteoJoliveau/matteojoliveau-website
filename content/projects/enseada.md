@@ -6,7 +6,7 @@ repository = "https://github.com/enseadaio/enseada"
 tags = ["open source", "elixir", "cloud"]
 title = "Enseada"
 website = "https://enseada.io"
-weight = 30
+weight = 20
 
 +++
 Enseada is a modern, fast and scalable package registry, designed from the ground up to run in elastic, container-based environments and to be highly available and distributed.
