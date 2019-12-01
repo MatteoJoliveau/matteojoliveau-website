@@ -1,6 +1,6 @@
 +++
 description = "A Cloud native multi-package registry"
-images = ["https://d1r70b9eh1brae.cloudfront.net/enseada-logo.png"]
+images = ["https://d1r70b9eh1brae.cloudfront.net/enseada-logo-white.png"]
 language = "elixir"
 repository = "https://github.com/enseadaio/enseada"
 tags = ["open source", "elixir", "cloud"]
