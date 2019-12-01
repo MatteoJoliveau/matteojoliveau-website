@@ -1,6 +1,6 @@
 +++
 description = "A pure Elixir client for CouchDB"
-images = []
+images = ["https://couchdb.apache.org/image/logo@2x.png"]
 language = "elixir"
 repository = "https://github.com/enseadaio/ex_couch"
 tags = ["open source", "elixir", "couchdb"]
