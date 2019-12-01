@@ -4,7 +4,7 @@ repository: https://github.com/matteojoliveau/convomark
 website: https://convomark.matteojoliveau.com/about
 description: Bookmark your telegram conversations! A Telegram bot to save your important
   conversations
-weight: 20
+weight: 30
 language: nodejs
 images:
 - https://d1r70b9eh1brae.cloudfront.net/convomark.jpg
