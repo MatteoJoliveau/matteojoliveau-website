@@ -23,4 +23,5 @@ fields:
     display_utc: false
   default: now
 pages:
+- content/about.md
 - content/talks.md
