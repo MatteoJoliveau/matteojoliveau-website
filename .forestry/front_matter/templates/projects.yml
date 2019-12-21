@@ -50,6 +50,7 @@ fields:
     - elixir
     - erlang
     - kotlin
+    - go
     source:
       type: simple
       section: 
