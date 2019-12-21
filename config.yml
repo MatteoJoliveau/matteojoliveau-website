@@ -1,26 +1,25 @@
-baseURL: "https://matteojoliveau.com/"
-languageCode: "en-us"
+---
+baseURL: https://matteojoliveau.com/
+languageCode: en-us
 enableRobotsTXT: true
-title: "Matteo Joliveau"
-
+title: Matteo Joliveau
 params:
-  title: "Matteo Joliveau"
-  description: "Software Developer & Cloud Enthusiast"
-  images: ["feature-image.png"]
-
+  title: Matteo Joliveau
+  description: Software Developer & Cloud Enthusiast
+  images:
+  - feature-image.png
 menu:
-  main: 
-  - identifier: "projects"
-    name: "Projects"
-    url: "/projects/"
-    weight: -120
-  - identifier: "about"
-    name: "About Me"
-    url: "/about/"
-    weight: -110
-  - name: "Contacts"
-    url: "/contacts/"
-    weight: -100
-
+  main:
+  - url: "/about/"
+    name: About Me
+    weight: 3
+    identifier: about
+  - url: "/contacts/"
+    name: Contacts
+    weight: 4
+  - url: "/projects/"
+    name: Projects
+    weight: 1
+    identifier: projects
 blackfriday:
   hrefTargetBlank: true
