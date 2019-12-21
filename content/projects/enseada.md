@@ -1,7 +1,7 @@
 +++
 description = "A Cloud native multi-package registry, built on distributed technologies to achieve high availability and easy horizontal scaling"
 images = ["https://d1r70b9eh1brae.cloudfront.net/enseada-logo-white.png"]
-language = "elixir"
+language = "go"
 repository = "https://github.com/enseadaio/enseada"
 tags = ["open source", "go", "cloud"]
 title = "Enseada"
