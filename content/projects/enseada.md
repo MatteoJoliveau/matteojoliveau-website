@@ -3,7 +3,7 @@ description = "A Cloud native multi-package registry, built on distributed techn
 images = ["https://d1r70b9eh1brae.cloudfront.net/enseada-logo-white.png"]
 language = "elixir"
 repository = "https://github.com/enseadaio/enseada"
-tags = ["open source", "elixir", "cloud"]
+tags = ["open source", "go", "cloud"]
 title = "Enseada"
 website = "https://enseada.io"
 weight = 20
@@ -14,24 +14,35 @@ A Cloud native multi-package registry.
 Enseada is a modern, fast and scalable package registry, designed from the ground up
 to run in elastic, container-based environments and to be highly available and distributed.
 
+[![Enseada Logo](https://raw.githubusercontent.com/enseadaio/enseada/develop/.github/logo-white.png)](https://enseada.io)
+
 ---
 
 It leverages scalability by using natively distributed technologies
 
-The registry itself is written in [Elixir](https://elixir-lang.org), an [Erlang](https://www.erlang.org/) compatible,
-functional and process-based programming language that is both fast and resource efficient.
+The registry itself is written in [Go](https://golang.org), a statically typed and extremely fast programming language very popular in Cloud native applications.
 
 [CouchDB](https://couchdb.apache.org/) is used as the primary datastore, containing information about
-repositories, users and access control. CouchDB is a web-native database written in Erlang and based on web technologies
-like HTTP and JSON.
+repositories, users and access control. CouchDB is a web-native database written in Erlang and based on web technologies like HTTP and JSON.
 
-As far as storage is concerned, both local disks an object storage services are supported, altough
-the latter are strongly recommended for production deployments.
+As far as storage is concerned, both local disks an object storage services are supported altough the latter are strongly recommended for production deployments.
+
+## Security first
+
+Enseada aims at providing a small, yet complete set of feature for managing software packages.
+Security is a priority concern, so an advanced policy engine provides the capabilities to define fine grained permissions over repositories and packages. From human users to automated service accounts, every access to the system is controlled, filtered and logged. A fully compliant [OAuth 2](https://auth0.com/docs/protocols/oauth2) implementation allows integration with third party systems with ease.
+
+## Management API
+
+A set of [Twirp](https://twitchtv.github.io/twirp) APIs allows to programmatically interact with Enseada and its resources. Check the [documentation](https://docs.enseada.io/developers/apis.html) for more information.
+
+## Management UI
+
+The same set of functionalities exposed in the [API](#management-api) is available as a built-in web GUI. Check the [documentation](https://docs.enseada.io/users/ui.html) for more information.
 
 ## Supported package repositories
 
-Enseada is a multi-package registry, meaning it can support a large number of package 
-formats and registry APIs.
+Enseada is a multi-package registry, meaning it can support a large number of package formats and registry APIs.
 
 At the moment, the following formats are supported:
 
@@ -42,8 +53,7 @@ At the moment, the following formats are supported:
 
 ## Supported storage providers
 
-Enseada uses the wonderful library [Waffle](https://github.com/stavro/arc) to implement
-its storage layer, and is therefore compatible with any provider supported by Waffle.
+Enseada abstracts the underlying storage provider with an agnostic engine based on [ChartMuseum's library](https://github.com/chartmuseum/storage)
 See [Configuration](#configuration) for how to setup the storage layer.
 
 At the moment, only these providers are supported:
@@ -51,3 +61,5 @@ At the moment, only these providers are supported:
 - Local disk
 - S3 compatible (AWS S3, Minio, DigitalOcean Spaces, Scaleway Object Storage, Ceph, etc)
 - Google Cloud Storage
+
+Local disk is only supported in single-node mode. To support [cluster mode](#cluster-mode) use an object storage provider.

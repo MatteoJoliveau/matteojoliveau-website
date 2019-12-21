@@ -24,7 +24,7 @@ function copyToClipboard(publicKey, button) {
   }
 };
 
-document.addEventListener('DOMContentLoaded', () => {
+onPageLoad(() => {
   const publicKey = document.getElementById('keybase-pk');
   getPublicKeyText(publicKey)
     .then((pk) => {

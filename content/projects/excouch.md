@@ -1,5 +1,6 @@
 +++
 description = "A pure Elixir client for CouchDB 2, providing idiomatic interactions and error handling"
+draft = true
 images = ["https://d1r70b9eh1brae.cloudfront.net/couch.png"]
 language = "elixir"
 repository = "https://github.com/enseadaio/ex_couch"
