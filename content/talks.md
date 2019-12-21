@@ -21,6 +21,6 @@ Here is a listing of all the talks and workshops I gave in the past, with links 
   _First delivered: 23rd October 2019 @ Codemotion Milan 2019_
 
   _Host(s): Matteo Joliveau, Nicola Racco  
-  _[_Slides_](https://docs.google.com/presentation/d/10YvN-INFGwgXzaejvguebwNiGL8wQ7I8kjmfcdRnWRk/edit?usp=sharing) _| Code  
+  _[_Slides_](https://docs.google.com/presentation/d/10YvN-INFGwgXzaejvguebwNiGL8wQ7I8kjmfcdRnWRk/edit?usp=sharing) _|_ [_Code_](https://github.com/mikamai/codemotion-ws-breaking-the-monolith)_  
   _  
   An 8 hours long workshop about the use of GraphQL and AWS Lambda to upgrade legacy APIs without touching them, so that they can be easily used by modern mobile-first clients but without the need to refactor them or maintain legacy code. The workshop focused on developing a small GraphQL API in NodeJS that would act as a proxy between clients and the legacy API server, by converting GraphQL queries into REST/SOAP/whatever protocol was used upstream. This small API was then converted into an AWS Lambda function and deployed using the [Serverless](https://serverless.com) framework.
