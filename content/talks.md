@@ -11,7 +11,9 @@ Here is a listing of all the talks and workshops I gave in the past, with links 
 * **Empowering the client with GraphQL** A tale of progressive adoption
 
   _First delivered: 23rd September 2019 @ DEV Community Milano Meetup  
-  Host(s): Matteo Joliveau, Mattia Panzeri  
+  Host(s): Matteo Joliveau, Mattia Panzeri_
+
+  [_Slides_](https://docs.google.com/presentation/d/1kl1jhjQJIHDIvTJfUL_GcPrBN7wGdqxiJiqegKZb9q0/edit?usp=sharing)_  
     
   _An overview of how GraphQL changed the way we design API-driven applications and the interactions between frontend clients and backend servers. Among the covered topics were both basic and advanced practices and techniques, such as pagination, batch loading, caching and schema design.
 * **Breaking the monolith!** Modernizing legacy APIs with GraphQL on AWS Lambda
@@ -19,5 +21,6 @@ Here is a listing of all the talks and workshops I gave in the past, with links 
   _First delivered: 23rd October 2019 @ Codemotion Milan 2019_
 
   _Host(s): Matteo Joliveau, Nicola Racco  
+  _[_Slides_](https://docs.google.com/presentation/d/10YvN-INFGwgXzaejvguebwNiGL8wQ7I8kjmfcdRnWRk/edit?usp=sharing) _| Code  
   _  
   An 8 hours long workshop about the use of GraphQL and AWS Lambda to upgrade legacy APIs without touching them, so that they can be easily used by modern mobile-first clients but without the need to refactor them or maintain legacy code. The workshop focused on developing a small GraphQL API in NodeJS that would act as a proxy between clients and the legacy API server, by converting GraphQL queries into REST/SOAP/whatever protocol was used upstream. This small API was then converted into an AWS Lambda function and deployed using the [Serverless](https://serverless.com) framework.
