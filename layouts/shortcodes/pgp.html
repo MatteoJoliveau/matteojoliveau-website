@@ -1,16 +1,10 @@
 {{ $username := .Get "username" }}
-{{ $fingerprint := .Get "fingerprint" }}
-{{ $url := printf "https://keybase.io/%s/pgp_keys.asc?fingerprint=%s" $username $fingerprint }}
+{{ $url := printf "https://api.github.com/users/%s/gpg_keys" $username }}
 
 <div class="columns">
   <div class="column is-two-thirds">
     <div class="level is-mobile">
       <div class="level-left">
-        <a class="level-item" target="_blank" href="https://keybase.io/{{ $username }}">
-          <span class="icon is-large">
-            <i class="fab fa-keybase is-size-2" title="{{ $username }}'s Keybase Profile"></i>
-          </span>
-        </a>
         <div class="field">
           <div class="control">
             <button class="level-item button is-link" id="copy-pk">Copy To Clipboard</button>
@@ -21,7 +15,7 @@
     <div class="field">
       <div class="control">
         <textarea class="textarea has-text-white has-background-dark" style="min-height: 50vh;" value="Public Key"
-          onclick="this.focus(); this.select();" id="keybase-pk" data-keybase-url="{{ $url }}" readonly></textarea>
+          onclick="this.focus(); this.select();" id="pgp-pk" data-pgp-url="{{ $url }}" readonly></textarea>
       </div>
     </div>
   </div>
@@ -31,7 +25,7 @@
 
 
 {{ define "scripts" }}
-{{ $js := resources.Get "js/keybase.js" }}
+{{ $js := resources.Get "js/pgp.js" }}
 {{ if not .Site.IsServer }}
 {{ $js = $js | minify | fingerprint}}
 {{ end }}

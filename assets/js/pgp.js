@@ -1,13 +1,9 @@
 function getPublicKeyText(publicKey) {
   publicKey.classList.toggle('is-loading');
-  const url = publicKey.dataset.keybaseUrl;
-  return fetch(url).then((res) => {
-    if (res.ok) {
-      return res.text();
-    } else {
-      throw new Error('Could not fetch Keybase PK');
-    }
-  })
+  const url = publicKey.dataset.pgpUrl;
+  return fetch(url)
+  .then((res) => (res.json()))
+  .then(([{ raw_key }]) => (raw_key));
 };
 
 function copyToClipboard(publicKey, button) {
@@ -25,7 +21,7 @@ function copyToClipboard(publicKey, button) {
 };
 
 onPageLoad(() => {
-  const publicKey = document.getElementById('keybase-pk');
+  const publicKey = document.getElementById('pgp-pk');
   getPublicKeyText(publicKey)
     .then((pk) => {
       publicKey.value = pk;

@@ -47,4 +47,4 @@ Below are my main profiles, drop a message if you'd like!
 
 ## PGP Public Key
 
-{{% keybase username="matteojoliveau" fingerprint="5082f3e1817a0f9adb54e4eb0e8bd7d975bb89c5" %}}
+{{% pgp username="matteojoliveau" %}}
