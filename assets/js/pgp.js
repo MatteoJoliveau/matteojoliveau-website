@@ -23,7 +23,6 @@ function copyToClipboard(publicKey, button) {
 document.addEventListener('DOMContentLoaded', () => {
   const publicKey = document.getElementById('pgp-pk');
   if (publicKey) {
-
     getPublicKeyText(publicKey)
       .then((pk) => {
         publicKey.value = pk;
