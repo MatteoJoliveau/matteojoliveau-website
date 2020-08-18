@@ -1,3 +1,5 @@
+console.log('Yo WTF')
+
 document.addEventListener('DOMContentLoaded', () => {
     window.ciao = "ciao";
     console.log('Preparing button')
