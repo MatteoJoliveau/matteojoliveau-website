@@ -24,9 +24,8 @@
 {{- block "styles" . }}{{- end }}
 
 <!-- JS -->
-{{ $utils := resources.Get "js/utils.js" }}
 {{ $navbar := resources.Get "js/navbar.js" }}
-{{ $js := slice $utils $navbar | resources.Concat "js/application.js" }}
+{{ $js := slice $navbar | resources.Concat "js/application.js" }}
 {{ if not .Site.IsServer }}
 {{ $js = $js | minify | fingerprint}}
 {{ end }}

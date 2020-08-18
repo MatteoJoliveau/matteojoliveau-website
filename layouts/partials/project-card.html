@@ -34,7 +34,7 @@
     </div>
     <footer class="card-footer">
         <a href="{{ $permalink }}" class="card-footer-item">More</a>
-        {{ with .Params.website }}<a href="{{ . }}" target="_blank" class="card-footer-item">Website</a>{{ end }}
-        {{ with .Params.repository }}<a href="{{ . }}" target="_blank" class="card-footer-item">Repository</a>{{end}}
+        {{ with .Params.website }}<a href="{{ . }}" target="_blank" rel="noopener" class="card-footer-item">Website</a>{{ end }}
+        {{ with .Params.repository }}<a href="{{ . }}" target="_blank" rel="noopener" class="card-footer-item">Repository</a>{{end}}
     </footer>
 </div>

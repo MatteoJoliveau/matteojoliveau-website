@@ -12,32 +12,32 @@ Below are my main profiles, drop a message if you'd like!
 
 <div class="level">
     <div class="level-left">
-        <a class="level-item" target="_blank" href="mailto://matteojoliveau+contacts@gmail.com">
+        <a class="level-item" target="_blank" rel="noopener" href="mailto://matteojoliveau+contacts@gmail.com">
             <span class="icon is-large">
               <i class="fas fa-envelope is-size-2" title="matteojoliveau's Email"></i>
             </span>
         </a>
-        <a class="level-item" target="_blank" href="https://t.me/gamescodex">
+        <a class="level-item" target="_blank" rel="noopener" href="https://t.me/gamescodex">
             <span class="icon is-large">
               <i class="fab fa-telegram-plane is-size-2" title="matteojoliveau's Telegram Account"></i>
             </span>
         </a>
-        <a class="level-item" target="_blank" href="https://github.com/matteojoliveau">
+        <a class="level-item" target="_blank" rel="noopener" href="https://github.com/matteojoliveau">
             <span class="icon is-large">
               <i class="fab fa-github is-size-2" title="matteojoliveau's GitHub Profile"></i>
             </span>
         </a>
-        <a class="level-item" target="_blank" href="https://twitter.com/matteojoliveau">
+        <a class="level-item" target="_blank" rel="noopener" href="https://twitter.com/matteojoliveau">
             <span class="icon is-large">
               <i class="fab fa-twitter is-size-2" title="matteojoliveau's Twitter Profile"></i>
             </span>
         </a>
-        <a class="level-item" target="_blank" href="https://dev.to/matteojoliveau">
+        <a class="level-item" target="_blank" rel="noopener" href="https://dev.to/matteojoliveau">
             <span class="icon is-large">
               <i class="fab fa-dev is-size-2" title="matteojoliveau's DEV Profile"></i>
             </span>
         </a>
-        <a class="level-item" target="_blank" href="https://twitch.tv/definitelycodex">
+        <a class="level-item" target="_blank" rel="noopener" href="https://twitch.tv/definitelycodex">
             <span class="icon is-large">
               <i class="fab fa-twitch is-size-2" title="definitelycodex's Twitch Channel"></i>
             </span>

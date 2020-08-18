@@ -13,7 +13,7 @@
                     {{ if hasPrefix . "https://github.com/"}}
                         {{ $repo := replace . "https://github.com/" "" }}
                     <img class="level-item" alt="GitHub" src="https://img.shields.io/github/license/{{ $repo }}.svg?style=for-the-badge">
-                    <a class="level-item github-button" href="{{ . }}" data-show-count="true"
+                    <a class="level-item github-button" href="{{ . }}" target="_blank" rel="noopener" data-show-count="true"
                         aria-label="Star {{ $repo }} on GitHub">Star</a>
                     {{ end }}
                 {{ end }}
@@ -22,10 +22,10 @@
         <div class="level">
             <div class="level-left">
                 {{ with .Params.website }}
-                <a href="{{ . }}" target="_blank" class="level-item button is-link">Website</a>
+                <a href="{{ . }}" target="_blank" rel="noopener" class="level-item button is-link">Website</a>
                 {{ end }}
                 {{ with .Params.repository }}
-                <a href="{{ . }}" target="_blank" class="level-item button is-link">Repository</a>
+                <a href="{{ . }}" target="_blank" rel="noopener" class="level-item button is-link">Repository</a>
                 {{ end }}
             </div>
         </div>
