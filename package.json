@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matteojoliveau/matteojoliveau-website.git",
+  "author": "Matteo Joliveau <matteo.joliveau@mikamai.com>",
+  "license": "Apache-2",
+  "private": true,
+  "scripts": {
+    "build": "hugo",
+    "clean": "rimraf public"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.1"
+  }
+}
