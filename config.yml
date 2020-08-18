@@ -27,3 +27,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+module:
+  mounts:
+    - source: ./node_modules/devicon/fonts
+      target: static/fonts
+    - source: ./node_modules/@fortawesome/fontawesome-free/webfonts
+      target: static/webfonts

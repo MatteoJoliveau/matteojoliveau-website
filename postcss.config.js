@@ -14,7 +14,10 @@ module.exports = {
         'ul',
         'li',
         'is-active'
-      ]
+      ],
+      whitelistPatterns: [
+        /devicon-\w*-plain/
+      ],
     },
     autoprefixer: {},
     cssnano: { preset: 'default' }
