@@ -21,6 +21,7 @@ function copyToClipboard(publicKey, button) {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('Fetching public key')
   const publicKey = document.getElementById('pgp-pk');
   if (publicKey) {
     getPublicKeyText(publicKey)
