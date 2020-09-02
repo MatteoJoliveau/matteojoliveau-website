@@ -13,7 +13,14 @@
 {{- $opts := (dict "targetPath" "css/application.css" "outputStyle" "compressed" "includePaths" (slice "node_modules")) -}}
 {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $opts | resources.PostCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap">
+<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap">
+<noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap">
+</noscript>
 {{- block "styles" . }}{{- end }}
 
 <!-- JS -->
