@@ -29,6 +29,8 @@ markup:
       unsafe: true
 module:
   mounts:
+    - source: ./static
+      target: static
     - source: ./node_modules/devicon/fonts
       target: static/fonts
     - source: ./node_modules/@fortawesome/fontawesome-free/webfonts

@@ -25,8 +25,8 @@
 {{ if not .Site.IsServer }}
 {{ $js = $js | minify | fingerprint}}
 {{ end }}
-<script src="{{ $js.Permalink }}" defer async></script>
-<script src="https://buttons.github.io/buttons.js" defer async></script>
+<script src="{{ $js.Permalink }}" defer></script>
+<script src="https://buttons.github.io/buttons.js" defer></script>
 {{- block "scripts" . }}{{- end }}
 
 <!-- Favicon -->
