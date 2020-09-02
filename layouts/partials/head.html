@@ -10,23 +10,12 @@
 {{ template "_internal/twitter_cards.html" . }}
 
 <!-- Stylesheets -->
-<style>
-    body {
-        visibility: hidden;
-    }
-</style>
 {{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/application.css") | resources.PostCSS | minify | fingerprint }}
-<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
 <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap">
 <noscript>
-    <style>
-        body {
-            visibility: visible;
-        }
-    </style>
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap">
