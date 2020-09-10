@@ -32,6 +32,6 @@ module:
     - source: ./static
       target: static
     - source: ./node_modules/devicon/fonts
-      target: static/fonts
+      target: static/css/fonts
     - source: ./node_modules/@fortawesome/fontawesome-free/webfonts
       target: static/webfonts
