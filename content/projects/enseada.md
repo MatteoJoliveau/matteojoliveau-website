@@ -1,14 +1,15 @@
 +++
 description = "A Cloud native multi-package registry, built on distributed technologies to achieve high availability and easy horizontal scaling"
 images = ["https://d1r70b9eh1brae.cloudfront.net/enseada-logo-white.png"]
-language = "go"
+language = "rust"
 repository = "https://github.com/enseadaio/enseada"
-tags = ["open source", "go", "cloud"]
+tags = ["open source", "rust", "cloud"]
 title = "Enseada"
 website = "https://enseada.io"
 weight = 20
 
 +++
+
 A Cloud native multi-package registry.
 
 Enseada is a modern, fast and scalable package registry, designed from the ground up
@@ -20,12 +21,12 @@ to run in elastic, container-based environments and to be highly available and d
 
 It leverages scalability by using natively distributed technologies
 
-The registry itself is written in [Go](https://golang.org), a statically typed and extremely fast programming language very popular in Cloud native applications.
+The registry itself is written in [Rust](https://rust-lang.org), a statically typed and extremely fast programming language built for correctness and safety.
 
 [CouchDB](https://couchdb.apache.org/) is used as the primary datastore, containing information about
 repositories, users and access control. CouchDB is a web-native database written in Erlang and based on web technologies like HTTP and JSON.
 
-As far as storage is concerned, both local disks an object storage services are supported altough the latter are strongly recommended for production deployments.
+Packages are can be stored in CouchDB itself, as file attachments, or in distributed object storage services like Amazon S3. The latter are recommended for production usage.
 
 ## Security first
 
@@ -34,7 +35,7 @@ Security is a priority concern, so an advanced policy engine provides the capabi
 
 ## Management API
 
-A set of [Twirp](https://twitchtv.github.io/twirp) APIs allows to programmatically interact with Enseada and its resources. Check the [documentation](https://docs.enseada.io/developers/apis.html) for more information.
+A set of RESTful APIs allows to programmatically interact with Enseada and its resources. Check the [documentation](https://docs.enseada.io/developers/apis.html) for more information.
 
 ## Management UI
 
@@ -46,20 +47,17 @@ Enseada is a multi-package registry, meaning it can support a large number of pa
 
 At the moment, the following formats are supported:
 
-- [Maven 2 / 3](https://maven.apache.org/guides/introduction/introduction-to-repositories.html)
+- [Docker](https://docs.docker.com/registry/spec/api/)
+- [Maven 2/3](https://maven.apache.org/guides/introduction/introduction-to-repositories.html)
 - [NPM](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) (planned, coming soon)
-- [Docker](https://docs.docker.com/registry/spec/api/) (planned, coming soon)
 - [RubyGems](https://rubygems.org) (planned, coming soon)
+- [Rust crates](https://doc.rust-lang.org/cargo/reference/registries.html) (planned, coming soon)
+- [Go module proxy](https://docs.gomods.io/intro/protocol/) (planned, coming soon)
 
 ## Supported storage providers
 
-Enseada abstracts the underlying storage provider with an agnostic engine based on [ChartMuseum's library](https://github.com/chartmuseum/storage)
-See [Configuration](#configuration) for how to setup the storage layer.
+Enseada abstracts the underlying storage provider with a custom storage engine tailored for its use cases.
 
-At the moment, only these providers are supported:
+At the moment, the following providers are supported:
 
-- Local disk
 - S3 compatible (AWS S3, Minio, DigitalOcean Spaces, Scaleway Object Storage, Ceph, etc)
-- Google Cloud Storage
-
-Local disk is only supported in single-node mode. To support [cluster mode](#cluster-mode) use an object storage provider.
