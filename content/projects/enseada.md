@@ -6,7 +6,7 @@ repository = "https://github.com/enseadaio/enseada"
 tags = ["open source", "rust", "cloud"]
 title = "Enseada"
 website = "https://enseada.io"
-weight = 20
+weight = 10
 
 +++
 A Cloud native multi-package registry.
