@@ -1,7 +1,7 @@
 +++
 description = "A Cloud native multi-package registry, built on distributed technologies to achieve high availability and easy horizontal scaling"
-images = ["https://d1r70b9eh1brae.cloudfront.net/enseada-logo-white.png"]
-language = "rust"
+images = ["https://d1r70b9eh1brae.cloudfront.net/enseada.png"]
+language = ""
 repository = "https://github.com/enseadaio/enseada"
 tags = ["open source", "rust", "cloud"]
 title = "Enseada"
@@ -9,7 +9,6 @@ website = "https://enseada.io"
 weight = 20
 
 +++
-
 A Cloud native multi-package registry.
 
 Enseada is a modern, fast and scalable package registry, designed from the ground up
