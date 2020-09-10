@@ -51,6 +51,7 @@ fields:
     - erlang
     - kotlin
     - go
+    - rust
     source:
       type: simple
       section: 
