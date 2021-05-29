@@ -7,12 +7,12 @@ description: Social media links and other ways to contact me
 # Contacts
 
 You can find me on different social networks and other platforms. I always go for either `matteojoliveau`, `GamesCodex` or `DefinitelyCodex` as my handle 
-(`Codex` being my historical gaming nickname).  
+(`Codex` being my historical gaming nickname). Or you could just drop me an email at [hi@matteojoliveau.com](mailto://hi@matteojoliveau.com) if you want, that's cool too!.  
 Below are my main profiles, drop a message if you'd like!
 
 <div class="level">
     <div class="level-left">
-        <a class="level-item" target="_blank" rel="noopener" href="mailto://matteojoliveau+contacts@gmail.com">
+        <a class="level-item" target="_blank" rel="noopener" href="mailto://hi@matteojoliveau.com">
             <span class="icon is-large">
               <i class="fas fa-envelope is-size-2" title="matteojoliveau's Email"></i>
             </span>
