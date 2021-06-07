@@ -7,7 +7,7 @@ tags = ["open source", " library", "mapper"]
 title = "Ruby SuperMapper"
 website = ""
 weight = 50
-
+draft = true
 +++
 <!-- markdownlint-disable commands-show-output -->
 **SuperMapper** is a quick and simple mapper between Ruby object.  

@@ -13,10 +13,11 @@ module.exports = {
         'h4',
         'ul',
         'li',
-        'is-active'
+        'is-active',
       ],
       whitelistPatterns: [
-        /devicon-\w*-plain/
+        /devicon-\w*-plain/,
+        /fa-\w*/,
       ],
     },
     autoprefixer: {},
