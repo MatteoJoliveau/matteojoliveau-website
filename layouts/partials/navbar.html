@@ -15,8 +15,8 @@
         <div class="navbar-start">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
-                <a class="navbar-item navbar-entry" href="{{ .URL }}">
-                    {{ .Name }}
+                <a class="navbar-item navbar-entry" href="{{ .URL }}"{{ if .Params.external }}target="_blank"{{ end }}>
+                    {{ .Pre }} <p>{{ .Name }}</p> {{ .Post }} <span class="icon"><i class="{{ .Params.icon }}"></i></span>
                 </a>
                 {{ end}}
     

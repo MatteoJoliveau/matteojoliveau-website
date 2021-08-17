@@ -2,9 +2,6 @@
 date = 2019-12-20T23:00:00Z
 description = ""
 title = "Talks"
-[menu.main]
-weight = 2
-
 +++
 # Talks and Workshops
 

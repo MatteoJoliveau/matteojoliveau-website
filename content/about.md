@@ -25,6 +25,8 @@ I'm also very skilled in **OAuth2-based protocols**, like **OpenID Connect 1.0**
 
 ## Work Experience
 
+Check out my full resume [here](https://standardresume.co/r/matteojoliveau)!
+
 * **Cloud Solution Architect [@Mikamai](https://mikamai.com) / May 2018 - Current**  
   Designing and developing modern **cloud-native** architectures and applications, helping clients achieve their business goals from requirements to production. Mainly focusing on **Ruby on Rails**, **NodeJS** and **Elixir** backends, deployed on **AWS-powered infrastructures** and secured by **Keycloak**.
   

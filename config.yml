@@ -10,17 +10,27 @@ params:
   - feature-image.png
 menu:
   main:
+  - url: "/projects/"
+    name: Projects
+    weight: 1
+    identifier: projects
+  - url: "/talks/"
+    name: Talks
+    weight: 2
+    identifier: talks
   - url: "/about/"
     name: About Me
     weight: 3
     identifier: about
   - url: "/contacts/"
     name: Contacts
-    weight: 4
-  - url: "/projects/"
-    name: Projects
-    weight: 1
-    identifier: projects
+    weight: 4  
+  - url: "https://standardresume.co/r/matteojoliveau"
+    name: Resume
+    weight: 5
+    params:
+      external: true
+      icon: fas fa-external-link-alt
 blackfriday:
   hrefTargetBlank: true
 markup:
