@@ -14,27 +14,27 @@ Below are my main profiles, drop a message if you'd like!
     <div class="level-left">
         <a class="level-item" target="_blank" rel="noopener" href="mailto://hi@matteojoliveau.com">
             <span class="icon is-large">
-              <i class="fas fa-envelope is-size-2" title="matteojoliveau's Email"></i>
-            </span>
-        </a>
-        <a class="level-item" target="_blank" rel="noopener" href="https://t.me/gamescodex">
-            <span class="icon is-large">
-              <i class="fab fa-telegram-plane is-size-2" title="matteojoliveau's Telegram Account"></i>
+              <i class="fas fa-envelope is-size-2" title="Matteo's Email"></i>
             </span>
         </a>
         <a class="level-item" target="_blank" rel="noopener" href="https://github.com/matteojoliveau">
             <span class="icon is-large">
-              <i class="fab fa-github is-size-2" title="matteojoliveau's GitHub Profile"></i>
+              <i class="fab fa-github is-size-2" title="Matteo's GitHub Profile"></i>
+            </span>
+        </a>
+        <a class="level-item" target="_blank" rel="me" href="https://mastodon.technology/@matteojoliveau">
+            <span class="icon is-large">
+              <i class="fab fa-mastodon is-size-2" title="Matteo's Mastodon Account"></i>
             </span>
         </a>
         <a class="level-item" target="_blank" rel="noopener" href="https://twitter.com/matteojoliveau">
             <span class="icon is-large">
-              <i class="fab fa-twitter is-size-2" title="matteojoliveau's Twitter Profile"></i>
+              <i class="fab fa-twitter is-size-2" title="Matteo's Twitter Profile"></i>
             </span>
         </a>
         <a class="level-item" target="_blank" rel="noopener" href="https://dev.to/matteojoliveau">
             <span class="icon is-large">
-              <i class="fab fa-dev is-size-2" title="matteojoliveau's DEV Profile"></i>
+              <i class="fab fa-dev is-size-2" title="Matteo's DEV Profile"></i>
             </span>
         </a>
         <a class="level-item" target="_blank" rel="noopener" href="https://twitch.tv/definitelycodex">
