@@ -22,7 +22,7 @@ Below are my main profiles, drop a message if you'd like!
               <i class="fab fa-github is-size-2" title="Matteo's GitHub Profile"></i>
             </span>
         </a>
-        <a class="level-item" target="_blank" rel="me" href="https://mastodon.technology/@matteojoliveau">
+        <a class="level-item" target="_blank" rel="me" href="https://fosstodon.org/@matteojoliveau">
             <span class="icon is-large">
               <i class="fab fa-mastodon is-size-2" title="Matteo's Mastodon Account"></i>
             </span>
