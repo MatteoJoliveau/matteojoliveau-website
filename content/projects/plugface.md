@@ -6,6 +6,7 @@ description: PlugFace is the simple, friction-free Java plugin framework that al
   you to load classes at runtime without having to worry about anything.
 weight: 20
 language: java
+draft: true
 images:
 - https://d1r70b9eh1brae.cloudfront.net/plugface.png
 tags:
