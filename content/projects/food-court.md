@@ -7,7 +7,7 @@ weight: 10
 language: elixir
 tags: ["side project"]
 description: |
-    Food Court is a web application to manage group orders at restaurants, designed and developed to solve a real personal problem: handling group orders when eating at All-You-Can-Eat sushi restaurants
+    Food Court is a web application designed and developed to solve a real personal problem: handling group orders when eating at All-You-Can-Eat sushi restaurants
 images:
 - https://d1r70b9eh1brae.cloudfront.net/food-court-cover.jpg
 
