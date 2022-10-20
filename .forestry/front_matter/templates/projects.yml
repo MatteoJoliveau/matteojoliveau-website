@@ -67,11 +67,9 @@ fields:
   config: {}
   label: Images
 pages:
-- content/projects/bunny.md
 - content/projects/chef-in-camicia-mobile-app.md
 - content/projects/convomark.md
 - content/projects/enseada.md
-- content/projects/excouch.md
 - content/projects/only-one-color-is-safe.md
 - content/projects/plugface.md
 - content/projects/revest.md
