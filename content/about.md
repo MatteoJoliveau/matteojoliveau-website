@@ -30,6 +30,6 @@ Check out my full resume [here](https://standardresume.co/r/matteojoliveau)!
 
 ## Certifications
 
-I'm a certified **AWS Associate Solution Architect**, you can verify my badge [here](https://www.credly.com/badges/23312a83-71f3-47c5-bf4d-ac5c3bcda2df), by downloading my [certificate](/aws-certificate.pdf), or by visiting https://aws.amazon.com/verification using the validatio number `VPZD850DPJEEQZSR`.
+I'm a certified **AWS Associate Solution Architect**, you can verify my badge [here](https://www.credly.com/badges/23312a83-71f3-47c5-bf4d-ac5c3bcda2df), by downloading my [certificate](/aws-certificate.pdf), or by visiting https://aws.amazon.com/verification using the validation number `VPZD850DPJEEQZSR`.
 
 ![AWS certification badge](https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)
