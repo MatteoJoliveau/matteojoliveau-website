@@ -6,7 +6,7 @@ repository = ""
 tags = ["professional", "mikamai", "aws"]
 title = "Revest"
 website = "https://revest.it"
-weight = 35
+weight = 50
 
 +++
 Revest is a luxury clothing eCommerce platform which rents its products instead of selling them.

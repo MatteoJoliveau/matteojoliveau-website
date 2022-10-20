@@ -1,2 +1,2 @@
-run:
-    hugo server
+run *args:
+    hugo server {{ args }}

@@ -5,7 +5,7 @@
         <div class="card-image">
             <a href="{{ $permalink }}">
                 <figure class="image is-16by9">
-                    <img src="{{ $img }}" alt="Placeholder image">
+                    <img src="{{ $img }}" alt="Cover image">
                 </figure>
             </a>
         </div>
@@ -14,13 +14,13 @@
         <a href="{{ $permalink }}" class="card-header-title">
             {{.Title}}
         </a>
-        <span class="icon is-large">
+        <span class="icon is-large" title="{{ .Params.language }}">
             <i class="devicon-{{ .Params.language }}-plain is-size-4"></i>
         </span>
         {{ with .Params.repository }}
         <div class="card-header-icon">
             <a class="github-button" href="{{ . }}" data-show-count="true"
-                aria-label="Star matteojoliveau/convomark on GitHub">Star</a>
+                aria-label="Star {{ . }} on GitHub">Star</a>
         </div>
         {{ end }}
     </header>

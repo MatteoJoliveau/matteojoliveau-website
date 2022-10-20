@@ -14,6 +14,7 @@
           buildInputs = with pkgs; [
             just
             hugo
+            nodejs-16_x
           ];
         };
       });

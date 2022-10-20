@@ -6,7 +6,7 @@ repository = ""
 tags = ["professional", "mikamai"]
 title = "Chef In Camicia - Mobile App"
 website = "https://chefincamicia.com/app/"
-weight = 40
+weight = 1000
 +++
 We built the Chef In Camicia mobile app as a way for them to engage with their community and offer prices to their followers for uploading images of their recipes based on themed campaigns.
 

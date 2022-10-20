@@ -6,57 +6,47 @@ repository = "https://github.com/enseadaio/enseada"
 tags = ["open source", "rust", "cloud"]
 title = "Enseada"
 website = "https://enseada.io"
-weight = 10
+weight = 30
 
 +++
+
+<a href="https://enseada.io" target="_blank">
+    <img alt="Enseada Logo" align="right" width=512 src="https://raw.githubusercontent.com/enseadaio/enseada/develop/.github/logo-white.png">
+</a>
+
 A Cloud native multi-package registry.
 
 Enseada is a modern, fast and scalable package registry, designed from the ground up
 to run in elastic, container-based environments and to be highly available and distributed.
 
-[![Enseada Logo](https://raw.githubusercontent.com/enseadaio/enseada/develop/.github/logo-white.png)](https://enseada.io)
-
 ---
 
-It leverages scalability by using natively distributed technologies
+It leverages scalability by using natively distributed technologies.
 
 The registry itself is written in [Rust](https://rust-lang.org), a statically typed and extremely fast programming language built for correctness and safety.
 
 [CouchDB](https://couchdb.apache.org/) is used as the primary datastore, containing information about
 repositories, users and access control. CouchDB is a web-native database written in Erlang and based on web technologies like HTTP and JSON.
 
-Packages are can be stored in CouchDB itself, as file attachments, or in distributed object storage services like Amazon S3. The latter are recommended for production usage.
+Packages are can be stored in CouchDB itself, as file attachments, or in distributed object storage services like Amazon S3.
 
-## Security first
+It is designed to support many different package formats and APIS, such as:
 
-Enseada aims at providing a small, yet complete set of feature for managing software packages.
-Security is a priority concern, so an advanced policy engine provides the capabilities to define fine grained permissions over repositories and packages. From human users to automated service accounts, every access to the system is controlled, filtered and logged. A fully compliant [OAuth 2](https://auth0.com/docs/protocols/oauth2) implementation allows integration with third party systems with ease.
 
-## Management API
+- OCI images
+- Maven JARs
+- NPM packages
+- RubyGems
+- Rust crates
+- Go module proxy
 
-A set of RESTful APIs allows to programmatically interact with Enseada and its resources. Check the [documentation](https://docs.enseada.io/developers/apis.html) for more information.
 
-## Management UI
+## State of the project
 
-The same set of functionalities exposed in the [API](#management-api) is available as a built-in web GUI. Check the [documentation](https://docs.enseada.io/users/ui.html) for more information.
+So the funny thing is, this project never landed. It was originally written in Elixir in 2019, but as the scope grew I found the Elixir ecosystem lacking in high-quality third-party libraries that provided what I needed. I then rewrote the project in Go, a language I knew had a very large ecosystem of packages available. This worked for a while, but I quickly grew tired of Go's unergonomic syntax and questionable design choices. A friend of mine had previously introduced me to Rust, so I decided to give it a go (pun definitely intended).
 
-## Supported package repositories
+This was the project that taught me the ins and outs of Rust, and has since seen another two rewrites as I changed the internal design of the application, first moving to an eventually-consistent approach which proved unsuccessful, and then to an event-sourced model.
 
-Enseada is a multi-package registry, meaning it can support a large number of package formats and registry APIs.
+I stopped developing it in 2021 to focus my efforts on [Karavel], but I still dream to get back and complete at least a functioning prototype. It's one of my dearest projects and I really hope to see it fly on its own one day.
 
-At the moment, the following formats are supported:
-
-- [Docker](https://docs.docker.com/registry/spec/api/)
-- [Maven 2/3](https://maven.apache.org/guides/introduction/introduction-to-repositories.html)
-- [NPM](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) (planned, coming soon)
-- [RubyGems](https://rubygems.org) (planned, coming soon)
-- [Rust crates](https://doc.rust-lang.org/cargo/reference/registries.html) (planned, coming soon)
-- [Go module proxy](https://docs.gomods.io/intro/protocol/) (planned, coming soon)
-
-## Supported storage providers
-
-Enseada abstracts the underlying storage provider with a custom storage engine tailored for its use cases.
-
-At the moment, the following providers are supported:
-
-- S3 compatible (AWS S3, Minio, DigitalOcean Spaces, Scaleway Object Storage, Ceph, etc)
+[Karavel]: /projects/karavel
