@@ -4,7 +4,7 @@ date: 2022-10-20T10:15:04.000+02:00
 repository:
 website: https://www.sinelec.it/en/portfolio/connected-mobility/c-its-platform-v2i-ready/
 weight: "5"
-draft: false
+draft: true
 language: nodejs
 tags: ["professional", "automotive", "cloud"]
 description: |

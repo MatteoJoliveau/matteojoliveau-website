@@ -13,12 +13,13 @@ My name's Matteo, and I'm a software developer from Europe. I mainly focus on cl
 ## Core Skills
 
 As a solution architect my focus is designing private deployment platforms for enterprises that wish to give developers the same *as a service* feeling as some of the big
-PaaS providers, while keeping control of their infrastructure and data. I'm specialized in [Kubernetes](https://kubernetes.io) based solutions that are easy to install, maintain, and scale
-as the project grows.
+PaaS providers, while keeping control of their infrastructure and data. I'm specialized in [Kubernetes](https://kubernetes.io) based solutions that are easy to install, maintain, and scale as the project grows.
 
-As a software developer I am competent in a wide range of programming languages such as **Rust**, **Java**, **Kotlin**, **Ruby**, **ECMAScript/TypeScript**, **Erlang** and **Elixir**, and **Golang**
+I led the design and implementation of the [Karavel Container Platform](https://platform.karavel.io), an open-source software toolkit to reliably build custom deployment platforms powered by Kubernetes.
 
-I'm an experienced system administrator, especially following **DevOps** and **GitOps** practices, and know my way around various **Linux distributions,** **FreeBSD**, **Windows** and **macOS** environments, **OCI containers** (including **Kubernetes** and derivatives) and **CI/CD** pipelines (both services like **CircleCI** and **GitLab CI** and on-prem stuff like **GoCD** and **Drone**).
+As a software developer I am competent in a wide range of programming languages such as **Rust**, **Elixir**,**ECMAScript/TypeScript**,  **Java**, **Kotlin**, **Ruby**, and **Golang**. I'm confident with a variety of off-the-shelf tools lime **PostgreSQL**, **Redis**, **Kafka**, **NATS**, **RabbitMQ**, and **Keycloak**.
+
+I'm an experienced system administrator, especially following **DevOps** and **GitOps** practices, and know my way around various **Linux distributions,** **FreeBSD**, **Windows** and **macOS** environments, **OCI containers** (including **Kubernetes** and derivatives) and **CI/CD** pipelines (both services like **CircleCI** and **GitLab CI** and on-prem stuff like **Tekton** and **Drone**).
 
 I'm especially well-versed in **API solutions design**, both **RESTful** and **GraphQL**-based, **event-driven/eventually consistent applications** and **Enterprise Integration Systems** (**Apache Camel** and alike). 
 I'm also very skilled in **OAuth2-based protocols**, like **OpenID Connect 1.0** and **User Managed Acces 2.0**, with experience in both consuming and implementing them.
@@ -26,13 +27,3 @@ I'm also very skilled in **OAuth2-based protocols**, like **OpenID Connect 1.0**
 ## Work Experience
 
 Check out my full resume [here](https://standardresume.co/r/matteojoliveau)!
-
-* **Cloud Solution Architect [@Mikamai](https://mikamai.com) / May 2018 - Current**  
-  Designing and developing modern **cloud-native** architectures and applications, helping clients achieve their business goals from requirements to production. Mainly focusing on **Ruby on Rails**, **NodeJS** and **Elixir** backends, deployed on **AWS-powered infrastructures** and secured by **Keycloak**.
-  
-***
-
-* **Backend Developer and Integration Specialist [@TechGap Italia](https://techgap.it) / January 2017 - May 2018**  
-  Developing and maintaining **Java-based** applications, both internal and for clients, along with open source projects. 
-  I worked on integration solutions for financial data transfer with software like **Apache Camel** and **Red Hat Fuse**, 
-  and on an [electronic invoice mapping and conversion software](https://github.com/AgID/EeISI-mapper).
