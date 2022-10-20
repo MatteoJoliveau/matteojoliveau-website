@@ -17,7 +17,7 @@ PaaS providers, while keeping control of their infrastructure and data. I'm spec
 
 I led the design and implementation of the [Karavel Container Platform](https://platform.karavel.io), an open-source software toolkit to reliably build custom deployment platforms powered by Kubernetes.
 
-As a software developer I am competent in a wide range of programming languages such as **Rust**, **Elixir**,**ECMAScript/TypeScript**,  **Java**, **Kotlin**, **Ruby**, and **Golang**. I'm confident with a variety of off-the-shelf tools lime **PostgreSQL**, **Redis**, **Kafka**, **NATS**, **RabbitMQ**, and **Keycloak**.
+As a software developer I am competent in a wide range of programming languages such as **Rust**, **Elixir**, **ECMAScript/TypeScript**,  **Java**, **Kotlin**, **Ruby**, and **Golang**. I'm confident with a variety of off-the-shelf tools lime **PostgreSQL**, **Redis**, **Kafka**, **NATS**, **RabbitMQ**, and **Keycloak**.
 
 I'm an experienced system administrator, especially following **DevOps** and **GitOps** practices, and know my way around various **Linux distributions,** **FreeBSD**, **Windows** and **macOS** environments, **OCI containers** (including **Kubernetes** and derivatives) and **CI/CD** pipelines (both services like **CircleCI** and **GitLab CI** and on-prem stuff like **Tekton** and **Drone**).
 
@@ -27,3 +27,9 @@ I'm also very skilled in **OAuth2-based protocols**, like **OpenID Connect 1.0**
 ## Work Experience
 
 Check out my full resume [here](https://standardresume.co/r/matteojoliveau)!
+
+## Certifications
+
+I'm a certified **AWS Associate Solution Architect**, you can verify my badge [here](https://www.credly.com/badges/23312a83-71f3-47c5-bf4d-ac5c3bcda2df), by downlading my [certificate](/aws-certificate.pdf), or by visiting https://aws.amazon.com/verification using the validatio number `VPZD850DPJEEQZSR`.
+
+![AWS certification badge](https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)
