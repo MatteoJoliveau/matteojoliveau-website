@@ -26,7 +26,7 @@ A lightning fast introduction to Rust aimed at TypeScript developers, showcasing
 
 ### Automating GitOps Kubernetes clusters at scale
 
-_First delivered on 23rd October 2021 @ Serverless Meetup Milano_
+_First delivered on 23rd October 2021 @ Serverless Meetup Milano_  
 _Host: Matteo Joliveau_
 
 Official public launch of the [Karavel](https://karavel.io) project and the [Karavel Container Platform](https://platform.karavel.io), with an overview of the main features and usecases covered by the platform.
@@ -39,7 +39,7 @@ Official public launch of the [Karavel](https://karavel.io) project and the [Kar
 
 ### Introduction to the container revolution
 
-_First delivered in 2021 @ an internal webinar_
+_First delivered in 2021 @ an internal webinar_  
 _Host: Matteo Joliveau_
 
 An internal company webinar centered on [Kubernetes](https://kubernetes.io), what it is, what it does, and why should you consider it to manage your containerized workloads at scale.
