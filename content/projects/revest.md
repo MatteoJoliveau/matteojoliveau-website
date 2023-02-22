@@ -1,5 +1,5 @@
 +++
-description = "Luxury clothing rent eCommerce platform, built on modern Cloud Native solutions CIAO"
+description = "Luxury clothing rent eCommerce platform, built on modern Cloud Native solutions"
 images = ["https://d1r70b9eh1brae.cloudfront.net/revest.png"]
 language = "ruby"
 repository = ""
