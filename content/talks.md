@@ -71,3 +71,17 @@ _Hosts: Matteo Joliveau, Mattia Panzeri_
 An overview of how GraphQL changed the way we design API-driven applications and the interactions between frontend clients and backend servers. Among the covered topics were both basic and advanced practices and techniques, such as pagination, batch loading, caching and schema design.
 
 [_Slides_](https://docs.google.com/presentation/d/e/2PACX-1vT1A-tLKnSKMWq2VU5pFMgXvxM0gwXmz4RuLSKg5SLhabV_wIXUd66qqa0WgXvgBkmGACqAENthbkf1/pub?start=false&loop=false&delayms=3000)
+
+---
+
+## Supercharging Development Environments
+
+
+### How we're revolutionizing local development shells with Nix and Flakes
+
+_First delivered on 17th April 2024 @ Nix Milano hosted by Prima_
+_Host: Matteo Joliveau_
+
+A quick tour of the internal Flake framework we're working on to standardize and automate local development environments provisioning in [Prima](https://helloprima.com), the challenges we're facing and the principles governing our decisions.
+
+[_Slides_](https://docs.google.com/presentation/d/e/2PACX-1vTBuK9d-c0AZCXvAnjBX5VPA4ZkMl6PCxr1H41yov5ojKuqM9jt-YGmq42v0znE1R2qGp4AJ9MWNF8P/pub?start=false&loop=false&delayms=3000) | [_Video (in italian)_](https://youtu.be/o3l0ggsMZfY?t=182)
