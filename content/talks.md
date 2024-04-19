@@ -79,7 +79,7 @@ An overview of how GraphQL changed the way we design API-driven applications and
 
 ### How we're revolutionizing local development shells with Nix and Flakes
 
-_First delivered on 17th April 2024 @ Nix Milano hosted by Prima_
+_First delivered on 17th April 2024 @ Nix Milano hosted by Prima_  
 _Host: Matteo Joliveau_
 
 A quick tour of the internal Flake framework we're working on to standardize and automate local development environments provisioning in [Prima](https://helloprima.com), the challenges we're facing and the principles governing our decisions.
