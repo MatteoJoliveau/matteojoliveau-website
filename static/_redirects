@@ -1,6 +1,0 @@
-/.well-known/webfinger https://social.matteojoliveau.com/.well-known/webfinger
-/.well-known/webfinger/* https://social.matteojoliveau.com/.well-known/webfinger/:splat
-/.well-known/host-meta https://social.matteojoliveau.com/.well-known/host-meta
-/.well-known/host-meta/* https://social.matteojoliveau.com/.well-known/host-meta/:splat
-/.well-known/nodeinfo  https://social.matteojoliveau.com/.well-known/nodeinfo
-/.well-known/nodeinfo/*  https://social.matteojoliveau.com/.well-known/nodeinfo/:splat
